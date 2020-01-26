@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');  
 body {
-    background-color: white;
+    background-color: blue;
     font-family: 'Open Sans', sans-serif;
 
   }
@@ -9,9 +9,7 @@ body {
 html {
     width: 100vw;
     overflow-x: hidden;
-
-  }
-
+}
 header {
   text-align: center;
 }
