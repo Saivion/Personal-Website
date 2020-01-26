@@ -3,11 +3,13 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
+
   }
 
 html {
     width: 100vw;
     overflow-x: hidden;
+
   }
 
 header {
@@ -48,11 +50,13 @@ hr {
   list-style-type: none;
   line-height: 26.8px;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 section {
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .socials {
@@ -66,6 +70,7 @@ section {
     padding: 0px 250px;
     max-width: 800px;
     text-align: center;
+
 }
 
 .img2 {
@@ -92,6 +97,7 @@ section {
   display: inline-block;
   padding: 13px 35px;
   background-color: #e9b144;
+ 
 }
 
 #blog p {
@@ -108,12 +114,15 @@ section {
   background-color: rgb(49, 187, 221); 
 }
 
+
 #activities p {
   margin: 0 auto;
   padding: 13px 36px;
   display: inline-block;
   background-color: tomato;
 }
+
+
 
 hr.line1 {
   max-width: 625px;
@@ -141,12 +150,15 @@ hr.line4 {
   border-width: 1.4px;
   border-style: solid;
   border-color: rgb(177, 69, 50);
+
 }
 
 ul {
+
     margin: 0vw 0;
     padding: 0;
     overflow: hidden;
+
   }
   
   li {
@@ -154,12 +166,14 @@ ul {
     display: inline;
     padding: 0px 3px;
 }
+
   li a {
     font-family: sans-serif;
     color: #333;
     padding: 10px 5px;
     text-decoration: none;
     opacity: 100%;
+    
   }
 
   @media only screen and (min-width: 350px) and (max-width:600px)  {
@@ -189,10 +203,11 @@ ul {
       margin-top: -105px;
       float: left;
       font-size: 10px;
-      margin-left: 12px;
+      margin-left: 10px;
     }
     .github {
       padding-top: 250px;
+      font-size: 12px;
     }
 
 }
