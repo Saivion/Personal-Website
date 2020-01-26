@@ -22,15 +22,6 @@ header {
   position: relative;
 }
 
-.text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 .name {
   margin-bottom: -72px;
   margin-right: 60px;
@@ -83,10 +74,10 @@ section {
 }
 
 .img2 {
-  margin-top: -10px;
+  margin-top: -175px;
   max-width: 36%;
   max-height: 30%;
-  float: right;
+  float: left;
 }
 
 .img1 {
@@ -185,26 +176,37 @@ ul {
     
   }
 
- @media only screen and (max-width:450px) {
+  @media only screen and (min-width: 350px) and (max-width:600px)  {
     .name {
-        font-size: 30px !important;
+        font-size: 81px !important;
+        line-height: 30px;
+        margin-left: 45px;
     }
     .links {
-        padding: 4px;
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 45px;
+        margin-right: 40px;
+        margin-top: 115px;
     }
-    .img {
-        width: 20px;
-        height: 25px;
+    hr {
+      margin-top: 15px;
     }
-}
-
-@media only screen and (max-width:600px) {
-    .name {
-        font-size: 60px !important;
+    .img1 {
+      margin-top: 90px;
     }
-    .links {
-        padding: 4px;
-        font-size: 18px;
+    .img2 {
+      margin-top: -220px;
+      width: 40%;
+      height: 40%;
+      margin-left: 10px;
+    }
+    .entre {
+      float: left;
+      margin-top: -60px;
+    }
+    .github {
+      padding-left: 85px;
+      display: inline-block;
     }
 }
