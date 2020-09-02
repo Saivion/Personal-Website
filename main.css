@@ -491,7 +491,6 @@ section {
 @media screen and (max-width: 812px) {
   html, body {
     width: 100%;
-    overflow-x: hidden; 
 }
 
   .text2 {
