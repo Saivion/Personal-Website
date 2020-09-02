@@ -1,57 +1,323 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen:wght@300&display=swap');
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, 'Helvetica Neue',Arial, Helvetica, sans-serif;
+    white-space: normal;
+    color: #333;
+    line-height: 20px;
+    font-size: 14px;
+}
 
-  }
-
-html {
-    width: 100vw;
-    overflow-x: hidden;
-
-  }
+.heading {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  font-size: 75px;
+  line-height: 60.77px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  text-align: left;
+  color: #333333;
+}
 
 header {
   text-align: center;
 }
 
+.heading p {
+  float: right; text-align: right; padding-top: 3.7px; color: #5d75ff;
+}
+
 .container {
-  max-width: 625px;
-  margin: 60px auto !important; 
+  max-width: 890px;
+  margin: 60px auto auto; 
   position: relative;
 }
 
-.name {
-  margin-bottom: -72px;
-  margin-right: 60px;
-  font-size: 81px;
-  letter-spacing: -8.16px;
-  font-family: 'Roboto Slab', serif;
-  line-height: 60.77px;
+.title-line {
+    /* border-width: 2px; */
+    max-width: 100px;
+    float: left;
+    height: 13px;
+    position: static;
+    padding-left: 140px;
+    padding-top: 0px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(34%, #38e395), color-stop(68%, #5d75ff));
+    background-image: linear-gradient(90deg, #5d75ff 27%, #38e395 68%);
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    line-height: 7px;
+    background-clip: border-box;
+} 
+
+.present {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: -5px;
+  padding-top: 20px;
+  padding-left: 10px;
+  float: left;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
 }
 
-hr {
-    display: block;
-    margin-top: 30px;
-    margin-bottom: .5px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: .5px;
-    color: #222;
-    max-width: 100px;
-  } 
+.summer {
+  margin: 35px 25px 20px 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: right;
+  font-size: 23px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+/* #arrowdown {
+  font-size: 50px;
+  color: #333;
+  opacity: 80%;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: 445px;
+} */
+/*TEXT BOXES WITHIN THE STUDENT SECTION*/
+.p1 {
+  margin: -5px 500px 10px -2px;
+  padding: 10px;
+  border-style: solid; 
+  border-width: 1px;
+  border-top: #333;
+  border-radius: 10px;
+  background-color: #444144;
+  opacity: 90%;
+  color: #fff;
+}
 
-.links {
-  margin-right: 180px;
+.p2 {
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 500px;
+  padding: 10px;
+  width: 300px;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333333;
+  border-radius: 10px;
+  background-color: #444144;
+  color: #fff;
+  opacity: 90%;
+}
+
+.p3 {
+  position: absolute;
+  margin-top: 40.5px;
+  margin-right: 500px;
+  padding: 10px;
+  margin-bottom: 75px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #444144;
+  color: #fff;
+  width: 358px;
+  opacity: 90%;
+}
+
+.spring {
+  margin-top: -319px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-top: 0px;
+  padding-left: 5px;
+  float: left;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.portfolio {
+  font-size: 21px;
+  color: #3fcfa2;
+  margin-top: -50px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 40px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.portfolioTitle {
+  margin-top: 20px;
+  color: #54dfb3;
+  font-size: 23px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.student {
+  padding-left: 10px;
+  padding-top: 250px;
+  font-size: 23;
+}
+
+.studentTitle {
+  padding-top: 200px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #5d75ff;
+  opacity: 85%;
+}
+
+.presentdiv {
+  max-width: 100%;
+  max-height: 119px;
+  min-height: 5px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(93, 117, 255, .44);
+}
+
+.presentdiv2 {
+  margin-top: 200px;
+}
+
+.presentdiv3 {
+  position: static; 
+}
+
+.paragraph {
+  width: 20%;
+  padding: 130px 0px 130px 65px;
+  margin-left: 10px;
+  float: left;
+  border-style: soli;
+  border-width: 1px;
+  border-color: #fff;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 88%, .84);
+  opacity: 1;
+  height: 70px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  font-size: 16px;
+  line-height: 50px;
+  cursor: auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.paragraph:hover {
+  box-shadow: 0 0 10px 1px #707070;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.text1 {
+  margin-top: 54px;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  padding-top: 0px;
+  padding-left: 10px;
+  float: none;
+  font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.text2 {
+  margin-top: 58px;
+  margin-right: -160px;
+  margin-left: 0px;
+  padding-left: 0px;
+  float: right;
+  font-size: 16px;
+  color: #f3be00;
+}
+
+.text3 {
+  margin-top: -295px;
+  margin-left: 15px;
+  float: left;
+}
+
+.image {
+  max-width: 20%;
+  margin: 40px 30px 0px 0px;
+  padding-bottom: 0px;
+  float: right;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(8, 45, 255, .15);
+  border-radius: 20px;
+}
+
+.experience {
+  margin-top: 700px;
+  padding-left: 10px;
+}
+
+.skillstext {
+  margin-left: 10px;
+}
+
+.heading-4 {
+  margin-top: 140px;
+  color: #ffc2a3;
+  font-size: 23px;
+}
+
+.heading-5 {
+  margin-top: 40px;
+  padding-left: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.heading-6 {
+  padding-left: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.text-block-4 {
+  margin-top: -43px;
+  padding-right: 10px;
+  float: right;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
-  margin-top: 25px;;
+}
+
+.text-block-4:hover {
+  opacity: 75%;
+  transform: scale(1.1);
+}
+
+.fidelitytext {
+  margin-bottom: 60px;
+  padding-left: 10px;
+  float: left;
+}
+/******************************************/
+.links {
+  font-size: 21px;
   list-style-type: none;
   line-height: 26.8px;
-  font-family: 'Open Sans', sans-serif;
-
+  margin-top: -50px;
 }
+
 
 section {
   margin-left: auto;
@@ -60,154 +326,164 @@ section {
 }
 
 .socials {
-  margin-bottom: -38px;
-  letter-spacing: 12px;  
-  text-align: center;
+  letter-spacing: 11px; 
+  text-align: right;
+  font-size: 20px;
 }
 
-.one {
-    color: black;
-    padding: 0px 250px;
-    max-width: 800px;
-    text-align: center;
-
-}
-
-.img2 {
-  margin-top: -175px;
-  max-width: 36%;
-  max-height: 30%;
-  float: left;
-}
-
-.img1 {
-  border-radius: 0px;
-  max-width: 36%;
-  max-height: 30%;
-  float: right;
-  margin-top: -20px;
-}
-
-#main > section {
-    float: right;
-}
-
-#about p {
-  margin: 0 auto;
-  display: inline-block;
-  padding: 13px 35px;
-  background-color: #e9b144;
- 
-}
-
-#blog p {
-  margin: 0 auto;
-  padding: 13px 52px;
-  display: inline-block;
-  background-color: #38e395;
-}
-
-#projects p { 
-  margin: 0 auto;
-  padding: 13px 39px;
-  display: inline-block;
-  background-color: rgb(49, 187, 221); 
-}
-
-
-#activities p {
-  margin: 0 auto;
-  padding: 13px 36px;
-  display: inline-block;
-  background-color: tomato;
-}
-
-
-
-hr.line1 {
-  max-width: 625px;
-  border-width: 1.4px;
-  border-style: solid;
-  border-color: #aa7d22;
-}
-
-hr.line2 {
-  max-width: 625px;
-  border-width: 1.4px;
-  border-style: solid;
-  border-color: #2ca16c;
-}
-
-hr.line3 {
-  max-width: 625px;
-  border-width: 1.4px;
-  border-style: solid;
-  border-color: rgb(5, 89, 138);
-}
-
-hr.line4 {
-  max-width: 625px;
-  border-width: 1.4px;
-  border-style: solid;
-  border-color: rgb(177, 69, 50);
-
-}
-
-ul {
-
-    margin: 0vw 0;
-    padding: 0;
-    overflow: hidden;
-
+/******************************************/
+@media screen and (max-width: 479px) {
+  .container {
+    margin-right: auto;
+    padding-left: 10px;
   }
-  
-  li {
+  .heading {
+    font-size: 69px;
+  }
+  .summer {
+    margin-top: 270px;
+    padding-right: 5px;
+    float: left;
+  }
+  .p1 {
+    width: 250px;
+    margin-right: -300px;
+  }
+  .p2 {
+    width: 250px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 18px;
+  }
+  .p3 {
+    width: 250px;
+    margin-top: 665px;
+    margin-right: 400%;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 75px;
+  }
+  .spring {
+    margin-top: 20px;
+    margin-left: -5px;
+    padding-top: 20px;
+  }
+  .presentdiv {
+    position: staic;
+    display: block;
+    width: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    grid-auto-columns: 1fr; 
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: left; 
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  .title-line {
+    width: 18%;
+    margin-top: 25px;
+  }
+  .portfolioTitle {
+    padding-top: 50px;
+  }
+  .paragraph {
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
-    display: inline;
-    padding: 0px 3px;
-}
-
-  li a {
-    font-family: sans-serif;
+    margin-right: 100px;
+    height: 20%;
+    padding-bottom: 150px;
+  }
+  .student {
+    padding-left: 5px; 
     color: #333;
-    padding: 10px 5px;
-    text-decoration: none;
-    opacity: 100%;
-    
+    padding-top: 150%;
+  }
+  .studentTitle {
+    margin-top: 250px;
+  }
+  .presentdiv2 {
+    margin-top: 250px;
+  }
+  .presentdiv3 {
+    margin-top: 0px;
+  }
+  .heading-3 {
+    background-color: transparent;
+    color: #333;
+  }
+  .heading-5 {
+    font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: Poppins, 'sans-serif';
+  }
+  .text-block-4 {
+    margin-bottom: 100px;
+  }
+  .fidelitytext {
+    margin-top: -90px;
+    margin-bottom: 100px;
+
+  }
+  .heading-6 {
+    margin-top: 110px;
+    font-size: 23px;
+    font-family: Poppins, 'sans-serif';
+  }
+  .skillstext {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .text1 {
+    width: 250%; 
+    margin-left: -5%px;
+    float: none;
+  }
+  .text2 {
+    padding-right: 50px;
+    margin-top: -15px;
+    margin-bottom: -50px;
+    float: left;
   }
 
-  @media only screen and (min-width: 350px) and (max-width:600px)  {
-    .name {
-        font-size: 81px !important;
-        line-height: 30px;
-        margin-left: 45px;
-    }
-    .links {
-        font-size: 16px;
-        line-height: 20px;
-        margin-left: 48px;
-        margin-right: 40px;
-        margin-top: 115px;
-    }
-    hr {
-      margin-top: 15px;
-    }
-    .img1 {
-      margin-top: 90px;
-    }
-    .img2 {
-      margin-top: -250px;
-      margin-left: 20px;
-    }
-    .entre {
-      margin-top: -105px;
-      float: left;
-      font-size: 10px;
-      margin-left: 10px;
-    }
-    .github {
-      padding-top: 250px;
-      font-size: 10.7px;
-    }
+  .text3 {
+    overflow: visible;
+    width: 250%;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding-left: 2px;
+    float: left;
+  }
 
+  .experience {
+    padding-top: 1px;
+    text-align: left;
+    margin-left: -10px;
+  }
+
+  .image {
+    max-width: 150%;
+    margin-top: 25px;
+    margin-left: 40px;
+    float: none;
+    text-align: left;
+  }
+  .text-block-4 {
+    margin-top: -5px;
+    margin-left: 10px; 
+    padding-right: 10px;
+    float: left;
+  }
+  .socials {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
 }

@@ -1,63 +1,57 @@
+// // function onTabClick(event) {
+// //     let activeTabs = document.querySelectorAll('.active');
 
-function myFunction(sections) {
-    if (sections == 'about') {
-        document.getElementById("about").style.display = '';
-        document.getElementById("projects").style.display = 'none';
-        document.getElementById("blog").style.display = 'none';
-        document.getElementById("activities").style.display = 'none';
+// // // deactivating exisiting active tabs
+// //     for (let i = 0; i < activeTabs.length; i++) {
+// //         activeTabs[i].className = activeTabs[i].className.replace('active', '');
+// //     }
 
-        document.getElementById("aboutSection").style.textDecoration = 'underline'
-        document.getElementById("aboutSection").style.color = ' rgb(34, 34, 34);'
-        document.getElementById("aboutProjects").style.textDecoration = 'none'
-        document.getElementById("aboutProjects").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutBlog").style.textDecoration = 'none'
-        document.getElementById("aboutBlog").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutActivities").style.textDecoration = 'none'
-        document.getElementById("aboutActivities").style.color = 'rgb(34, 34, 34);'
-    }
-    if (sections == 'projects') {
-        document.getElementById("about").style.display = 'none';
-        document.getElementById("projects").style.display = '';
-        document.getElementById("blog").style.display = 'none';
-        document.getElementById("activities").style.display = 'none';
+// // // activating new tab clicked on
+// // event.target.parentElement.className += ' active';
+// // document.getElementById(event.target.href.split('#')[1]).className += ' active';
+// // }
 
-        document.getElementById("aboutSection").style.textDecoration = 'none'
-        document.getElementById("aboutSection").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutProjects").style.textDecoration = 'underline'
-        document.getElementById("aboutProjects").style.color = ' rgb(34, 34, 34);'
-        document.getElementById("aboutBlog").style.textDecoration = 'none'
-        document.getElementById("aboutBlog").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutActivities").style.textDecoration = 'none'
-        document.getElementById("aboutActivities").style.color = 'rgb(34, 34, 34);'
-    }
-    if (sections == 'blog') {
-        document.getElementById("about").style.display = 'none';
-        document.getElementById("projects").style.display = 'none';
-        document.getElementById("blog").style.display = '';
-        document.getElementById("activities").style.display = 'none';
+// // const element = document.getElementById('nav-tab');
 
-        document.getElementById("aboutSection").style.textDecoration = 'none'
-        document.getElementById("aboutSection").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutProjects").style.textDecoration = 'none'
-        document.getElementById("aboutProjects").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutBlog").style.textDecoration = 'underline'
-        document.getElementById("aboutBlog").style.color = ' rgb(34, 34, 34);'
-        document.getElementById("aboutActivities").style.textDecoration = 'none'
-        document.getElementById("aboutActivities").style.color = 'rgb(34, 34, 34);'
-    }
-    if (sections == 'activities') {
-        document.getElementById("about").style.display = 'none';
-        document.getElementById("projects").style.display = 'none';
-        document.getElementById("blog").style.display = 'none';
-        document.getElementById("activities").style.display = '';
+// // element.addEventListener('click', onTabClick, false);
 
-        document.getElementById("aboutSection").style.textDecoration = 'none'
-        document.getElementById("aboutSection").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutProjects").style.textDecoration = 'none'
-        document.getElementById("aboutProjects").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutBlog").style.textDecoration = 'none'
-        document.getElementById("aboutBlog").style.color = 'rgb(34, 34, 34);'
-        document.getElementById("aboutActivities").style.textDecoration = 'underline'
-        document.getElementById("aboutActivities").style.color = 'rgb(34, 34, 34);'
-    }
-}
+// function myFunction(activeTabs) {
+//     if (activeTabs == 'student') {
+//         document.getElementById("student").style.display = '';
+//         // document.getElementById("portfolio").style.display = 'none';
+//         document.getElementById("experience").style.display = 'none';
+
+//         document.getElementById("aboutStudent").style.textDecoration = 'overline'
+//         document.getElementById("aboutStudent").style.color = '#5d75ff;'
+//         // document.getElementById("aboutPortfolio").style.textDecoration = 'none'
+//         // document.getElementById("aboutPortfolio").style.color = 'rgb(34, 34, 34);'
+//         document.getElementById("aboutExperience").style.textDecoration = 'none'
+//         document.getElementById("aboutExperience").style.color = 'none;'
+//     }
+//     // if (activeTabs == 'portfolio') {
+//     //     document.getElementById("student").style.display = 'none';
+//     //     document.getElementById("portfolio").style.display = '';
+//     //     document.getElementById("experience").style.display = 'none';
+
+//     //     document.getElementById("aboutStudent").style.textDecoration = 'none'
+//     //     document.getElementById("aboutStudent").style.color = 'rgb(34, 34, 34);'
+//     //     document.getElementById("aboutPortfolio").style.textDecoration = 'underline'
+//     //     document.getElementById("aboutPortfolio").style.color = ' rgb(34, 34, 34);'
+//     //     document.getElementById("aboutExperience").style.textDecoration = 'none'
+//     //     document.getElementById("aboutExperience").style.color = 'rgb(34, 34, 34);'
+//     // }
+//     if (activeTabs == 'experience') {
+//         document.getElementById("student").style.display = 'none';
+//         // document.getElementById("portfolio").style.display = 'none';
+//         document.getElementById("experience").style.display = '';
+
+//         document.getElementById("aboutStudent").style.textDecoration = 'none'
+//         document.getElementById("aboutStudent").style.color = 'none;'
+//         // document.getElementById("aboutPortfolio").style.textDecoration = 'none'
+//         // document.getElementById("aboutPortfolio").style.color = 'rgb(34, 34, 34);'
+//         document.getElementById("aboutExperience").style.textDecoration = 'overline'
+//         document.getElementById("aboutExperience").style.color = '#5d75ff;'
+//     }
+// }
+
+// // }
