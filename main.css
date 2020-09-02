@@ -487,3 +487,20 @@ section {
     padding-top: 10px;
   }
 }
+
+@media screen and (max-width: 812px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+  .text2 {
+    margin-top: 295px;
+    position: static;
+    margin-right: -210px;
+    float: right;
+  }
+  .summer {
+    float: right;
+  }
+}
