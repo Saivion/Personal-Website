@@ -37,6 +37,10 @@ header {
   position: relative;
 }
 
+a:hover {
+  opacity: 55%;
+}
+
 .title-line {
     /* border-width: 2px; */
     max-width: 100px;
