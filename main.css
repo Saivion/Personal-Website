@@ -202,6 +202,14 @@ a:hover {
   position: static; 
 }
 
+footer {
+  text-align: center;
+  color: #333;
+  opacity: 40%;
+  margin-bottom: 50px;
+  margin-top: 530px;
+}
+
 .paragraph {
   width: 20%;
   padding: 130px 0px 130px 65px;
@@ -338,11 +346,11 @@ section {
 /******************************************/
 @media screen and (max-width: 479px) {
   .container {
-    margin-right: auto;
     padding-left: 10px;
   }
   .heading {
     font-size: 69px;
+    margin-left: 20px;
   }
   .summer {
     margin-top: 270px;
@@ -392,6 +400,7 @@ section {
   .title-line {
     width: 18%;
     margin-top: 25px;
+    margin-left: 20px;
   }
   .portfolioTitle {
     padding-top: 50px;
@@ -488,25 +497,87 @@ section {
   .socials {
     float: left;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-left: 20px;
+  }
+  footer {
+    text-align: center;
+    color: #333;
+    opacity: 40%;
+    margin-top: 1280px;
+    margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (min-width: 375px) and (max-width: 812px) {
   html, body {
     width: 100%;
 }
-
+.heading {
+  margin-left: 50px;
+}
+.title-line {
+  margin-left: 52px;
+}
+  .socials {
+    font-size: 20px;
+    letter-spacing: 15px;
+    margin-left: 50px;
+  }
   .text2 {
     margin-top: 295px;
     position: static;
     margin-right: -210px;
     float: right;
   }
-  .text3 {
+  .paragraph {
+    margin-left: 35px;
+  }
+
+  .studentTitle {
+    margin-top: 150px;
+  }
+  .text3 a {
     font-size: 16px;
+
   }
   .summer {
     float: right;
+  }
+  footer {
+    text-align: center;
+    color: #333;
+    opacity: 40%;
+    margin-top: 1280px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .p2 {
+    margin-top: 3px;
+  }
+  .text2 {
+    margin-top: 55px;
+    float: right;  
+    margin-right: -160px;
+  }
+  footer {
+    text-align: center;
+    color: #333;
+    opacity: 40%;
+    margin-top: 300px;
+  }
+  .socials {
+    padding-right: 20px;
+  }
+} 
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  footer {
+    text-align: center;
+    color: #333;
+    opacity: 40%;
+    margin-top: 520px;
   }
 }
