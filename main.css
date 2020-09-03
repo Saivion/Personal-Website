@@ -264,6 +264,10 @@ footer {
   float: left;
 }
 
+.text3 a {
+  text-decoration: none; color: #5d75ff;
+}
+
 .image {
   max-width: 20%;
   margin: 40px 30px 0px 0px;
@@ -537,7 +541,7 @@ section {
   .studentTitle {
     margin-top: 150px;
   }
-  .text3 a {
+  .text3 {
     font-size: 16px;
 
   }
