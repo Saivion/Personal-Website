@@ -9,52 +9,31 @@ body {
     color: #333;
     line-height: 20px;
     font-size: 14px;
-    /* max-width: 60%; */
 }
 
 .heading {
+  margin-top: 40px;
+  margin-bottom: 0px;
   font-family: Poppins, sans-serif;
-  font-size: 55px;
+  font-size: 75px;
   line-height: 60.77px;
   font-weight: 500;
   letter-spacing: -4px;
-  text-align: center;
+  text-align: left;
   color: #333333;
-}
-
-.tab {
-  margin-top: -75px;
-}
-
-.socials {
-  float: right;
-  font-size: 20px;
-  margin-top: -390px;
-  margin-right: 27px;
-}
-
-.titleBody {
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
-  font-family: Poppins, sans-serif;
-  margin-top: 100px;
-  line-height: 40px;
-  color: #333333;
-  margin-bottom: 150x;
 }
 
 header {
   text-align: center;
 }
 
-/* .heading p {
+.heading p {
   float: right; text-align: right; padding-top: 3.7px; color: #5d75ff;
-} */
+}
 
 .container {
   max-width: 890px;
-  margin: 60px auto auto auto; 
+  margin: 60px auto auto; 
   position: relative;
 }
 
@@ -62,8 +41,8 @@ a:hover {
   opacity: 55%;
 }
 
-/* .title-line {
-    /* border-width: 2px; 
+.title-line {
+    /* border-width: 2px; */
     max-width: 100px;
     float: left;
     height: 13px;
@@ -80,9 +59,9 @@ a:hover {
     background-image: linear-gradient(90deg, #5d75ff 27%, #38e395 68%);
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    line-height: px;
+    line-height: 7px;
     background-clip: border-box;
-}  */
+} 
 
 .present {
   margin-top: 10px;
@@ -148,6 +127,7 @@ a:hover {
   margin-top: 40.5px;
   margin-right: 500px;
   padding: 10px;
+  margin-bottom: 75px;
   margin-left: 10px;
   border-style: solid;
   border-width: 1px;
@@ -190,12 +170,12 @@ a:hover {
 
 .student {
   padding-left: 10px;
+  padding-top: 250px;
   font-size: 23;
-  margin-right: 10px;
 }
 
 .studentTitle {
-  padding-top: 100px;
+  padding-top: 200px;
   font-size: 23px;
   font-weight: 600;
   color: #5d75ff;
@@ -222,14 +202,15 @@ a:hover {
   position: static; 
 }
 
-/* footer {
+footer {
   text-align: center;
   color: #333;
   opacity: 40%;
   margin-bottom: 50px;
-} */
+  margin-top: 530px;
+}
 
-/* .paragraph {
+.paragraph {
   width: 20%;
   padding: 130px 0px 130px 65px;
   margin-left: 10px;
@@ -254,7 +235,7 @@ a:hover {
   box-shadow: 0 0 10px 1px #707070;
   -webkit-filter: none;
   filter: none;
-} */
+}
 
 .text1 {
   margin-top: 54px;
@@ -296,92 +277,6 @@ a:hover {
   border-width: 3px;
   border-color: rgba(8, 45, 255, .15);
   border-radius: 20px;
-}
-
-.scroll {
-  text-align: center;
-  color: #333;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 100px;
-}
-
-.socialView { 
-  color: grey;
-  font-size: 23px;
-  font-weight: 500;
-  font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
-
-.socialViewText1 {
-  font-size: 20px;
-  font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #BE6FFB;
-}
-
-
-.image1 {
-  /* border-radius: 20px; */
-  /* left: -100px;  */
-  opacity: 1;
-  display: block;
-  transform: .3s ease;
-  width: 100%;
-  height: 700px;
-  position: relative;
-  /* max-width: 20%;
-  border-color: black;
-  border-width: 10px;
-  border-style: solid; */
-}
-
-.textImage {
-  float: left;
-  color: #BE6FFB;
-}
-
-.socialText {
-  color: #333333;
-  font-weight: 400;
-  text-align: left;
-}
-
-.image1:hover {
-  opacity: 50%;
-  transform: .3s ease;
-  background-color: #BE6FFB;
-
-}
-
-
-/* .textImage:hover {
-  color: yellow;
-  font-size: 20px;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, 0%);
-  text-align: center;
- } */
-
-
-
-/* .textImage:hover {
-  background-color: #333333;
-  font-size: 20px;
-  position: absolute;
-  text-align: center;
-} */
-
-.image2 {
-  border-radius: 20px;
-  float: right;  
-  /* max-width: 20%;
-  border-color: black;
-  border-width: 10px;
-  border-style: solid; */
 }
 
 .experience {
@@ -435,15 +330,15 @@ a:hover {
 .links {
   font-size: 21px;
   list-style-type: none;
-  display: inline;
-  text-align: center;
-  color: #00CD22;
+  line-height: 26.8px;
+  margin-top: -50px;
 }
 
 
 section {
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .socials {
@@ -457,10 +352,10 @@ section {
   .container {
     padding-left: 10px;
   }
-  /* .heading {
+  .heading {
     font-size: 69px;
     margin-left: 20px;
-  } */
+  }
   .summer {
     margin-top: 270px;
     padding-right: 5px;
@@ -609,39 +504,29 @@ section {
     padding-top: 30px;
     margin-left: 20px;
   }
-  /* footer {
+  footer {
     text-align: center;
     color: #333;
     opacity: 40%;
     margin-top: 1280px;
     margin-bottom: 50px;
-  } */
-   /* .links {
-    position: relative;
-    display: none;
-  }  */
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
-
-/* .heading {
+  html, body {
+    width: 100%;
+}
+.heading {
   margin-left: 50px;
-} */
+}
 .title-line {
   margin-left: 52px;
-}
-
-
-.heading {
-  margin-bottom: 80px;
-  margin-right: 5px;
 }
   .socials {
     font-size: 20px;
     letter-spacing: 15px;
     margin-left: 50px;
-    margin-top: 350px;
-    text-align: center;
   }
   .text2 {
     margin-top: 295px;
@@ -649,16 +534,12 @@ section {
     margin-right: -210px;
     float: right;
   }
-  .text3 {
-    font-size: 20px;
-  }
-
   .paragraph {
     margin-left: 35px;
   }
 
   .studentTitle {
-    margin-top: -600px;
+    margin-top: 150px;
   }
   .text3 {
     font-size: 16px;
@@ -667,20 +548,16 @@ section {
   .summer {
     float: right;
   }
-  /* footer {
+  footer {
     text-align: center;
     color: #333;
     opacity: 40%;
     margin-top: 1280px;
     margin-bottom: 50px;
-  } */
-    /* .links {
-    position: relative;
-  } */
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
   .p2 {
     margin-top: 3px;
   }
@@ -689,30 +566,22 @@ section {
     float: right;  
     margin-right: -160px;
   }
-  /* footer {
+  footer {
     text-align: center;
     color: #333;
     opacity: 40%;
     margin-top: 300px;
-  } */
-  .socials {
-    letter-spacing: 10px;
-    float: right;
   }
-  /* .links {
-    position: relative;
-    margin-right: 200px;
-  } */
+  .socials {
+    padding-right: 20px;
+  }
 } 
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
-  /* footer {
+  footer {
     text-align: center;
     color: #333;
     opacity: 40%;
     margin-top: 520px;
-  } */
-  .socials {
-    padding-top: 30px;
   }
 }
