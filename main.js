@@ -15,31 +15,32 @@
 
 // // element.addEventListener('click', onTabClick, false);
 
-// function myFunction(activeTabs) {
-//     if (activeTabs == 'student') {
-//         document.getElementById("student").style.display = '';
-//         // document.getElementById("portfolio").style.display = 'none';
-//         document.getElementById("experience").style.display = 'none';
+function myFunction(activeTabs) {
+    if (activeTabs == 'student') {
+        document.getElementById("student").style.display = '';
+        document.getElementById("portfolio").style.display = 'none';
+        // document.getElementById("experience").style.display = 'none';
 
-//         document.getElementById("aboutStudent").style.textDecoration = 'overline'
-//         document.getElementById("aboutStudent").style.color = '#5d75ff;'
-//         // document.getElementById("aboutPortfolio").style.textDecoration = 'none'
-//         // document.getElementById("aboutPortfolio").style.color = 'rgb(34, 34, 34);'
-//         document.getElementById("aboutExperience").style.textDecoration = 'none'
-//         document.getElementById("aboutExperience").style.color = 'none;'
-//     }
-//     // if (activeTabs == 'portfolio') {
-//     //     document.getElementById("student").style.display = 'none';
-//     //     document.getElementById("portfolio").style.display = '';
-//     //     document.getElementById("experience").style.display = 'none';
+        document.getElementById("aboutStudent").style.textDecoration = 'none'
+        document.getElementById("aboutStudent").style.color = '#5d75ff'
+        document.getElementById("aboutPortfolio").style.textDecoration = 'none'
+        document.getElementById("aboutPortfolio").style.color = '#aaaaaa'
+        // document.getElementById("aboutExperience").style.textDecoration = 'none'
+        // document.getElementById("aboutExperience").style.color = 'none;'
+    }
+    if (activeTabs == 'portfolio') {
+        document.getElementById("student").style.display = 'none';
+        document.getElementById("portfolio").style.display = '';
+        // document.getElementById("experience").style.display = 'none';
 
-//     //     document.getElementById("aboutStudent").style.textDecoration = 'none'
-//     //     document.getElementById("aboutStudent").style.color = 'rgb(34, 34, 34);'
-//     //     document.getElementById("aboutPortfolio").style.textDecoration = 'underline'
-//     //     document.getElementById("aboutPortfolio").style.color = ' rgb(34, 34, 34);'
-//     //     document.getElementById("aboutExperience").style.textDecoration = 'none'
-//     //     document.getElementById("aboutExperience").style.color = 'rgb(34, 34, 34);'
-//     // }
+        document.getElementById("aboutStudent").style.textDecoration = 'none'
+        document.getElementById("aboutStudent").style.color = '#aaaaaa'
+        document.getElementById("aboutPortfolio").style.textDecoration = 'none'
+        document.getElementById("aboutPortfolio").style.color = '#5d75ff'
+        // document.getElementById("aboutExperience").style.textDecoration = 'none'
+        // document.getElementById("aboutExperience").style.color = 'rgb(34, 34, 34);'
+    }
+}
 //     if (activeTabs == 'experience') {
 //         document.getElementById("student").style.display = 'none';
 //         // document.getElementById("portfolio").style.display = 'none';
