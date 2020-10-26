@@ -481,33 +481,27 @@ section {
     font-size: 69px;
     margin-left: 20px;
   } */
-  .summer {
-    margin-top: 270px;
-    padding-right: 5px;
-    float: left;
-  }
-  .p1 {
-    width: 250px;
-    margin-right: -300px;
-  }
-  .p2 {
-    width: 250px;
-    text-align: left;
-    margin-right: 18px;
-  }
-  .p3 {
-    width: 250px;
-    margin-top: 665px;
-    margin-right: 400%;
-    text-align: left;
-    margin-left: 0px;
-    margin-bottom: 75px;
-  }
-  .spring {
-    margin-top: 20px;
-    margin-left: -5px;
-    padding-top: 20px;
-  }
+ /* .links {
+   padding-top: 50px;
+ }
+  .aboutMe {
+    float:left
+    }
+    
+    .p1 {
+      float: left;
+    }
+
+    .p2 {
+      float: left;
+    }
+    .presentdiv1 {
+      margin-bottom: -100px;
+    }
+    .presentdiv2 {
+      margin-top: -100px;
+    } */
+
   /* .presentdiv {
     position: staic;
     display: block;
@@ -525,87 +519,7 @@ section {
     -o-object-fit: fill;
     object-fit: fill;
   } */
-  .title-line {
-    width: 18%;
-    margin-top: 25px;
-    margin-left: 20px;
-  }
-  .portfolioTitle {
-    padding-top: 50px;
-  }
-  .paragraph {
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    margin-right: 100px;
-    height: 20%;
-    padding-bottom: 150px;
-  }
-  .student {
-    padding-left: 5px; 
-    color: #333;
-    padding-top: 150%;
-  }
 
-  .presentdiv2 {
-    margin-top: 250px;
-  }
-  .presentdiv3 {
-    margin-top: 0px;
-  }
-  .heading-3 {
-    background-color: transparent;
-    color: #333;
-  }
-  .heading-5 {
-    font-size: 23px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-family: Poppins, 'sans-serif';
-  }
-  .text-block-4 {
-    margin-bottom: 100px;
-  }
-  .fidelitytext {
-    margin-top: -90px;
-    margin-bottom: 100px;
-
-  }
-  .heading-6 {
-    margin-top: 110px;
-    font-size: 23px;
-    font-family: Poppins, 'sans-serif';
-  }
-  .skillstext {
-    padding-left: 0px;
-    margin-top: 10px;
-  }
-  .text1 {
-    width: 250%; 
-    margin-left: -5%px;
-    float: none;
-  }
-  .text2 {
-    padding-right: 50px;
-    margin-top: -15px;
-    margin-bottom: -50px;
-    float: left;
-  }
-
-  .text3 {
-    overflow: visible;
-    width: 250%;
-    margin-top: 5px;
-    margin-left: 0px;
-    padding-left: 2px;
-    float: left;
-  }
-
-  .experience {
-    padding-top: 1px;
-    text-align: left;
-    margin-left: -10px;
-  }
 
   .image {
     max-width: 150%;
@@ -644,13 +558,21 @@ section {
 /* .heading {
   margin-left: 50px;
 } */
-.title-line {
-  margin-left: 52px;
+.links {
+  margin-top: 20px
+}
+.p1 {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-
+.p2 {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .heading {
-  margin-bottom: 80px;
   margin-right: 5px;
 }
   .socials {
@@ -660,27 +582,7 @@ section {
     margin-top: 350px;
     text-align: center;
   }
-  .text2 {
-    margin-top: 295px;
-    position: static;
-    margin-right: -210px;
-    float: right;
-  }
-  .text3 {
-    font-size: 20px;
-  }
 
-  .paragraph {
-    margin-left: 35px;
-  }
-
-  .text3 {
-    font-size: 16px;
-
-  }
-  .summer {
-    float: right;
-  }
   /* footer {
     text-align: center;
     color: #333;
@@ -695,13 +597,7 @@ section {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-  .p2 {
-  }
-  .text2 {
-    margin-top: 55px;
-    float: right;  
-    margin-right: -160px;
-  }
+
   /* footer {
     text-align: center;
     color: #333;
