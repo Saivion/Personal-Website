@@ -559,14 +559,24 @@ section {
   margin-left: 50px;
 } */
 .links {
-  margin-top: 20px
+  position: relative;
+}
+.heading {
+  margin-bottom: 100px;
 }
 .p1 {
   padding: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
+.aboutMe {
+  text-align: left;
+  margin-left: 25px;
+}
+.experiences {
+  text-align: left;
+  margin-left: 25px;
+}
 .p2 {
   padding: 20px;
   margin-left: 20px;
