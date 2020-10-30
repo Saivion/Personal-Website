@@ -45,23 +45,44 @@ body {
   margin-top: -75px;
 }
 
+.titleSocials {
+  font-size: 13px;
+  margin-bottom: -25px;
+  font-family: Arial, 'Helvetica Neue',Arial, Helvetica, sans-serif;
+  color: rgb(93, 116, 124);
+  font-weight: 800;
+  margin-top: 0px;
+  opacity: 100;
+}
+
+.socials, a:hover {
+  opacity: .3;
+}
+
 .socials {
-  font-size: 30px;
-  background-color: green;
-  color: #333;
-  margin-top: -90px;
-  margin-bottom: 200px;
+  font-size: 17px;
+  margin-top: 100px;
+  background-color: rgba(17, 0, 255, 0.014);
+  border-radius: 10px;
+  float: right;
+  font-weight: 400;
+  padding: 15px 15px 15px 20px;
+  width: 180px;
+  opacity: 100;
+  line-height: 30px;
+  position: relative;
 }
 
 .titleBody {
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
+  font-size: 27px;
+  text-align: left;
+  font-weight: 500;
   font-family: Poppins, sans-serif;
   margin-top: 100px;
   line-height: 40px;
   color: #333333;
   margin-bottom: 150x;
+  padding-right: 250px;
 }
 
 header {
@@ -78,9 +99,6 @@ header {
   position: relative;
 }
 
-a:hover {
-  opacity: 55%;
-}
 
 /* .title-line {
     /* border-width: 2px; 
@@ -335,11 +353,13 @@ a:hover {
 }
 
 .scroll {
-  text-align: center;
+  text-align: left;
   color: #333;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   margin-bottom: 100px;
+  margin-top: -10px;
+  color: grey;
 }
 
 .socialTitle1 { 
@@ -476,21 +496,11 @@ a:hover {
 .links {
   font-size: 21px;
   list-style-type: none;
-  display: inline;
-  text-align: center;
-  color: #00CD22;
 }
-
 
 section {
   margin-left: auto;
   margin-right: auto;
-}
-
-.socials {
-  letter-spacing: 11px; 
-  text-align: right;
-  font-size: 20px;
 }
 
 /******************************************/
@@ -577,12 +587,12 @@ section {
     padding-right: 10px;
     float: left;
   }
-  .socials {
+  /* .socials {
     float: left;
     padding-left: 10px;
     padding-top: 30px;
     margin-left: 20px;
-  }
+  } */
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
@@ -590,7 +600,7 @@ section {
   padding: 0 10px 10px 10px;
 }
 .socialTitle1 {
-  font-size: 25px;
+  font-size: 23px;
   padding-bottom: 20px;
 }
 .socialText1 {
@@ -598,7 +608,7 @@ section {
 }
 
 .socialTitle2 {
-  font-size: 25px;
+  font-size: 23px;
   padding-bottom: 20px;
 }
 .socialText2 {
@@ -642,11 +652,7 @@ section {
   margin-right: 5px;
 }
 .socials {
-  font-size: 20px;
-  letter-spacing: 15px;
-  margin-left: 50px;
-  margin-top: 350px;
-  text-align: center;
+  width: 120px;
 }
 }
 
@@ -659,10 +665,10 @@ section {
     opacity: 40%;
     margin-top: 300px;
   } */
-  .socials {
+  /* .socials {
     letter-spacing: 10px;
     float: right;
-  }
+  } */
   /* .links {
     position: relative;
     margin-right: 200px;
@@ -676,7 +682,7 @@ section {
     opacity: 40%;
     margin-top: 520px;
   } */
-  .socials {
+  /* .socials {
     padding-top: 30px;
-  }
+  } */
 }
