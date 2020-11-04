@@ -492,6 +492,8 @@ header {
 .links {
   font-size: 21px;
   list-style-type: none;
+  color: #333;
+  
 }
 
 section {
