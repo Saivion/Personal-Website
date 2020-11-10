@@ -18,8 +18,12 @@ body {
   line-height: 60.77px;
   font-weight: 500;
   letter-spacing: -3px;
-  text-align: center;
+  text-align: left;
   color: #333333;
+}
+
+.projectTitle {
+  font-size: 55px;
 }
 
 .hr {
@@ -28,7 +32,16 @@ body {
   margin: 90px auto 90px auto;
 }
 
-.hrVertical {
+.backgroundBox {
+  border-radius: 10px;
+  border-width: 2px;
+  height: 200px;
+  background-color: #f3be00;
+  border-style: solid;
+  color: rgb(224, 224, 224);
+}
+
+/* .hrVertical {
   border-left: 6px dotted grey;
   height: 50px;
   position: relative;
@@ -39,7 +52,7 @@ body {
   border-right: none;
   border-top: none;
   border-bottom: none;
-}
+} */
 
 .tab {
   margin-top: -75px;
@@ -57,6 +70,8 @@ body {
 
 .socials, a:hover {
   opacity: .3;
+  transition: .8s ease;
+
 }
 
 .socials {
@@ -451,7 +466,7 @@ header {
   display: block;
   width: 100%;
   height: auto;
-  transition: .3s ease;
+  transition: .8s ease;
   backface-visibility: hidden;
   /* max-width: 20%;
   border-color: black;
@@ -468,7 +483,7 @@ header {
   display: block;
   width: 100%;
   height: auto;
-  transition: .3s ease;
+  transition: .8s ease;
   backface-visibility: hidden;
 }
 .textImage {
@@ -490,7 +505,7 @@ header {
 
 /******************************************/
 .links {
-  font-size: 21px;
+  font-size: 19px;
   list-style-type: none;
   color: #333;
   
@@ -506,15 +521,11 @@ section {
   .container {
     padding: 10px;
   }
-  .socialTitle1 {
-
-  }
+  
   .socialText1 {
     display: none;
   }
-  
-  .socialTitle2 {
-  }
+ 
   .socialText2 {
     display: none;
   }
@@ -525,9 +536,7 @@ section {
   .image2 {
     margin-top: -50px;
   }
-  .hr {
-    margin-top: 50px;
-  }
+
   /* .heading {
     font-size: 69px;
     margin-left: 20px;
@@ -598,19 +607,25 @@ section {
   padding: 0 10px 10px 10px;
 }
 .socialTitle1 {
-  font-size: 23px;
-  padding-bottom: 20px;
+  /* font-size: 23px;
+  padding-bottom: 20px; */
+  display: none;
 }
 .socialText1 {
   display: none;
 }
 
 .socialTitle2 {
-  font-size: 23px;
-  padding-bottom: 20px;
+  /* font-size: 23px;
+  padding-bottom: 20px; */
+  display: none;
 }
 .socialText2 {
   display: none;
+}
+
+.hr {
+  margin-top: -1px;
 }
 
 .image1{
@@ -619,11 +634,10 @@ section {
 .image2 {
   margin-top: -50px;
 }
-.hr {
-  margin-top:80px;
-}
+
 .links {
-  position: relative;
+  float: left;
+  margin-left: -35px;
 }
 .heading {
   margin-bottom: 100px;
