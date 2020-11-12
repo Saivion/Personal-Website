@@ -22,14 +22,19 @@ body {
   color: #333333;
 }
 
-.projectTitle {
-  font-size: 55px;
-}
+/* .subheading {
+  font-size: 20px;
+  text-align: left;
+  margin-top: -25px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+} */
+
 
 .hr {
-  opacity: 50%;
-  width: 50%;
-  margin: 90px auto 90px auto;
+  opacity: 100%;
+  width: 20%;
+  margin: 180px auto 90px auto;
 }
 
 .backgroundBox {
@@ -64,24 +69,23 @@ body {
   font-family: Arial, 'Helvetica Neue',Arial, Helvetica, sans-serif;
   color: rgb(93, 116, 124);
   font-weight: 800;
-  margin-top: 0px;
   opacity: 100;
 }
 
-.socials, a:hover {
+.socials a:hover {
   opacity: .3;
-  transition: .8s ease;
-
+  transition: .7s ease;
 }
 
 .socials {
   font-size: 17px;
-  margin-top: 100px;
+  margin-top: 30px;
   background-color: rgba(17, 0, 255, 0.014);
   border-radius: 10px;
   float: right;
+  text-align: left;
   font-weight: 400;
-  padding: 15px 15px 15px 20px;
+  padding: 0 15px 15px 20px;
   width: 180px;
   opacity: 100;
   line-height: 30px;
@@ -93,7 +97,7 @@ body {
   text-align: left;
   font-weight: 500;
   font-family: Poppins, sans-serif;
-  margin-top: 100px;
+  margin-top: 20px;
   line-height: 40px;
   color: #333333;
   margin-bottom: 150x;
@@ -112,6 +116,8 @@ header {
   max-width: 890px;
   margin: 60px auto auto auto; 
   position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
@@ -252,6 +258,7 @@ header {
 
 .student {
   text-align: center;
+  padding-top: 400px;
 }
 
 .aboutMe {
@@ -363,116 +370,33 @@ header {
   border-radius: 20px;
 }
 
-.scroll {
-  text-align: left;
-  color: #333;
-  font-size: 15px;
-  font-weight: 500;
-  margin-bottom: 100px;
-  margin-top: -10px;
-  color: grey;
-}
+/* .grid-item-text {
+  box-sizing: content-box;
+display: block;
+float: none;
+line-height: 30.4px;
+position: static;
+z-index: 10;
+} */
 
-.socialTitle1 { 
-  color: #333;
-  font-size: 23px;
-  font-weight: 400;
-  font-family: Poppins, sans-serif;
-  text-align: left;
-
-  /* 
-  transition: .4s ease;
-  opacity: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 36px;
-  margin-top: -100px */
-}
-
-.socialTitle2 { 
-  /* color: grey;
-  transition: .4s ease;
-  opacity: 100%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 36px; */
-  color: #333;
-  font-size: 23px;
-  font-weight: 400;
-  font-family: Poppins, sans-serif;
-  text-align: left;
-} 
-
-.socialText1 {
-  font-size: 17px;
-  font-family: Poppins, sans-serif;
-  color: black;
-  margin-top: -20px;
-  font-weight: 400;
-
-  transition: .4s ease;
-  opacity: 100%;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  margin-top: -110px;
-}
-
-.socialText2 {
-  font-size: 17px;
-  font-family: Poppins, sans-serif;
-  color: #333;
-  margin-top: -20px;
-  font-weight: 400;
-
-  transition: .4s ease;
-  opacity: 100%;
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  margin-top: -210px;
-
-}
-
-.container:hover .socialText2, .socialText1 {
-  opacity: 100%;
-  color: black;
-}
 
 .image1 {
-  border-radius: 20px;
   /* left: -100px;  */
   /* opacity: 1;
   display: block;
   transform: .3s ease;
   border-radius: 20px; */
-  width: 20%;
-  height: auto;
-  
-  position: relative; 
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .8s ease;
-  backface-visibility: hidden;
+
   /* max-width: 20%;
   border-color: black;
   border-width: 10px;
   border-style: solid; */
 }
+
+.image1:hover {
+
+}
+
 .image2 {
   width: 20%;
   height: auto;
@@ -491,12 +415,12 @@ header {
   color: #BE6FFB;
 }
 
-.image1:hover {
+/* .image1:hover {
   opacity: 20%;
 }
 .image2:hover {
   opacity: 20%;
-}
+} */
 
 .experience {
   margin-top: 700px;
@@ -604,7 +528,6 @@ section {
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
 .container {
-  padding: 0 10px 10px 10px;
 }
 .socialTitle1 {
   /* font-size: 23px;
@@ -625,7 +548,10 @@ section {
 }
 
 .hr {
-  margin-top: -1px;
+  opacity: 100%;
+  max-width: 20%;
+  margin: 135px auto 90px auto;
+  position: relative;
 }
 
 .image1{
@@ -665,7 +591,9 @@ section {
 }
 .socials {
   width: 120px;
-}
+  position: relative;
+  padding-left: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
