@@ -18,8 +18,16 @@ body {
   line-height: 60.77px;
   font-weight: 500;
   letter-spacing: -3px;
-  text-align: left;
+  text-align: center;
   color: #333333;
+}
+
+.titleLine {
+  width: 150px;
+  height: auto;
+  border-width: 10px;
+  
+  color: black;
 }
 
 /* .subheading {
