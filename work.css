@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap');
+
+.sectionTitle {
+    font-family: Poppins, sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.05em;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+    line-height: 0.5em;
+    pointer-events: none;
+    margin-top: 180px;
+    flex: 1 100%;
+    }
+/* .work-hr1 {
+    width: 4.5%;
+    margin-top: 20px;
+    color: black;
+    text-align: left;
+} */
+
+.work1 {
+    /* font-size: 90px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    color: #333333;
+    position: absolute;
+    margin-top: 120px;
+    top: 200px; 
+    width: 100%;  */
+/* flex: 1 50%;
+padding: 30px 50px 60px;
+height: auto;
+position: relative;
+overflow: hidden;
+font-size: 28px;
+flex-direction: column;
+justify-content: center;
+text-decoration: none;
+color: #333333;
+font-family: Poppins, sans-serif;
+float: left; */
+
+font-family: Poppins, sans-serif;
+float: left;
+font-size: 20px;
+padding-left: 15px;
+height: auto;
+position: relative;
+overflow: hidden;
+width: 100%;
+z-index: 10;
+text-align: left;
+text-decoration: none;
+
+flex: 1 50%;
+box-sizing: border-box;
+
+flex-direction: column;
+justify-content: center;
+display: flex;
+
+}
+
+.workText1 {
+    color: #333333;
+    font-family: Poppins, sans-serif;
+    float: left;
+    justify-content: center;
+    padding-top: 30px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    }
+
+
+.fidelityIcon {
+    width: 80px;
+    height: auto;
+    position: relative;
+    margin-top: -20px;
+    }
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+.fidelityTitle {
+    line-height: 45px;
+}
+}

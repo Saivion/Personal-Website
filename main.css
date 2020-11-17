@@ -14,21 +14,21 @@ body {
 
 .heading {
   font-family: Poppins, sans-serif;
-  font-size: 55px;
+  font-size: 65px;
   line-height: 60.77px;
   font-weight: 500;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
   text-align: center;
   color: #333333;
 }
-
+/* 
 .titleLine {
   width: 150px;
   height: auto;
   border-width: 10px;
   
   color: black;
-}
+} */
 
 /* .subheading {
   font-size: 20px;
@@ -94,7 +94,8 @@ body {
   text-align: left;
   font-weight: 400;
   padding: 0 15px 15px 20px;
-  width: 180px;
+  max-width: 150px;
+  width: 300px;
   opacity: 100;
   line-height: 30px;
   position: relative;
@@ -598,7 +599,6 @@ section {
   margin-right: 5px;
 }
 .socials {
-  width: 120px;
   position: relative;
   padding-left: 20px;
   }
