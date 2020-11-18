@@ -5,37 +5,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap');
 
-  .projectHover a:hover {
-      opacity: 80%;
-  }
-
-  .hoverFeatures p:hover {
-    transform: translate3D(0, 8px, 0);
+.projectHover1:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all .9s ease;
 }
 
-  .hoverFeatures h1:hover {
-    transform: translate3D(0, -6px, 0);
+.project2:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all .9s ease;
 }
 
-  .projectHover img {
-      text-align: center;
-  }
+.project3:hover {
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all .9s ease;
+}
 
-  .sectionTitle {
+.openProject1 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 20px 23px;
+    background-color: #5043db;
+    color: #fff;
+    font-size: 16px;
+    opacity: 100% !important;
+    transform-origin: 0 0;
+    will-change: transform, opacity;
+    transform: scaleY(0) translateZ(0);
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
     font-family: Poppins, sans-serif;
-    font-size: 100px;
-    font-weight: 700;
-    color: #333;
-    letter-spacing: -0.05em;
-    text-align: left;
-    z-index: 10;
-    position: relative;
-    line-height: 0.5em;
-    pointer-events: none;
-    margin-top: 180px;
-    flex: 1 100%;
-    }
-    
+}
+
+.project1:hover .openProject1 {
+    transform: scaleY(1) translateZ(0);
+    transition: transform 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 100% !important;
+}
+
+.openProject2 {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 20px 23px;
+    background-color: #061733;
+    color: #fff;
+    font-size: 16px;
+    opacity: 100% !important;
+    transform-origin: 0 0;
+    will-change: transform, opacity;
+    transform: scaleY(0) translateZ(0);
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    font-family: Poppins, sans-serif;
+}
+
+.project2:hover .openProject2 {
+    transform: scaleY(1) translateZ(0);
+    transition: transform 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 100% !important;
+}
 /* .hr1 {
     max-width: 4.5%;
     margin-top: 30px;
@@ -55,7 +94,7 @@
 .tetherIcon {
     height: 44px;
     width: 44px;
-    margin: 0 auto 15px;
+    margin: 0px auto 15px;
 }
 
 .magnifyIcon {
@@ -94,6 +133,21 @@
     text-decoration: none;
     color: #fff;
     font-family: Poppins, sans-serif;
+}
+
+.project1 h1 {
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateZ(0);
+    font-size: 46px;
+    line-height: 1.3em;
+    margin: 25px auto 0.35em;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 800;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    letter-spacing: -0.3px;
 }
 
 .project2 {

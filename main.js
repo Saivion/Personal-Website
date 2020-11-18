@@ -15,6 +15,7 @@
 
 // // element.addEventListener('click', onTabClick, false);
 
+
 function myFunction(activeTabs) {
     if (activeTabs == 'student') {
         document.getElementById("student").style.display = '';
