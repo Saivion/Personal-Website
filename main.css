@@ -436,6 +436,7 @@ z-index: 10;
   padding-left: 10px;
 }
 
+
 /******************************************/
 .links {
   font-size: 19px;
@@ -538,6 +539,10 @@ section {
 @media screen and (min-width: 375px) and (max-width: 812px) {
 .container {
 }
+
+.heading {
+  font-size: 60px;
+}
 .socialTitle1 {
   /* font-size: 23px;
   padding-bottom: 20px; */
@@ -601,7 +606,9 @@ section {
 .socials {
   position: relative;
   padding-left: 20px;
+  width: 30%;
   }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {

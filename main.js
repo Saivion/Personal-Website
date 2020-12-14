@@ -1,21 +1,22 @@
-// // function onTabClick(event) {
-// //     let activeTabs = document.querySelectorAll('.active');
 
-// // // deactivating exisiting active tabs
-// //     for (let i = 0; i < activeTabs.length; i++) {
-// //         activeTabs[i].className = activeTabs[i].className.replace('active', '');
-// //     }
+// //Collapsible Menu - Work Section
+// var collapse = document.getElementsByClassName("dropdownArrow");
+// for (var i = 0; i < collapse.length; i++) {
+//   collapse[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
 
-// // // activating new tab clicked on
-// // event.target.parentElement.className += ' active';
-// // document.getElementById(event.target.href.split('#')[1]).className += ' active';
-// // }
+//     var content = this.nextElementSibling;
+//         saivion = this.nextElementSibling;
+//     if (content.style.display === "block") {
+//       content.style.display = "none";
+//     } else {
+//       content.style.display = "block";
+//     };
+//   });
+// }
 
-// // const element = document.getElementById('nav-tab');
 
-// // element.addEventListener('click', onTabClick, false);
-
-
+// Tabs 
 function myFunction(activeTabs) {
     if (activeTabs == 'student') {
         document.getElementById("student").style.display = '';

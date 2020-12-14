@@ -1,0 +1,37 @@
+.container {
+  max-width: 890px;
+}
+.dropdownArrow {
+    color: #333;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    font-size: 45px;
+    margin-top: -85px;
+    position: relative;
+  }
+  
+  .active, .dropdownArrow:hover {
+    opacity: 50%;
+    transition: all .6s ease;
+}
+  
+  .content {
+    display: none;
+    overflow: hidden;
+    padding: 8px;
+    padding-left: 15px;
+    text-align: left;
+    width: 50%;
+  }
+
+  .contentPicture {
+    float: right;
+    width: 50%;
+    height: auto;
+  }
+
+  .saivion {
+    float: right;
+  }
+

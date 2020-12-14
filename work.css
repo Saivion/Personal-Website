@@ -26,48 +26,25 @@
     text-align: left;
 } */
 
+
+/* Fidelity Experience */
 .work1 {
-    /* font-size: 90px;
-    letter-spacing: -1px;
-    font-weight: 700;
-    font-family: Poppins, sans-serif;
-    color: #333333;
-    position: absolute;
-    margin-top: 120px;
-    top: 200px; 
-    width: 100%;  */
-    /* flex: 1 50%;
-    padding: 30px 50px 60px;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    font-size: 28px;
-    flex-direction: column;
-    justify-content: center;
-    text-decoration: none;
-    color: #333333;
-    font-family: Poppins, sans-serif;
-    float: left; */
-
-    font-family: Poppins, sans-serif;
-    float: left;
-    font-size: 20px;
-    padding-left: 15px;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    z-index: 10;
-    text-align: left;
-    text-decoration: none;
-
     flex: 1 50%;
-    box-sizing: border-box;
-
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
     flex-direction: column;
     justify-content: center;
     display: flex;
+    text-align: left;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 40px 0 0 0;
+}
 
+.work1 h5 {
+    margin-top: -15px;
+    font-size: 16px;
 }
 
 .workText1 {
@@ -75,23 +52,130 @@
     font-family: Poppins, sans-serif;
     float: left;
     justify-content: center;
-    padding-top: 30px;
     height: auto;
     position: relative;
     overflow: hidden;
     text-decoration: none;
-    }
+}
 
+/* PVAMU Experience */
+.work2 {
+    flex: 1 50%;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 40px 0 0 0;
+}
+
+.work2 h5 {
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.workText2 {
+    color: #333333;
+    font-family: Poppins, sans-serif;
+    float: left;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    width: 50%;
+    float: left;
+    height: 450px;
+}
+
+.contentPicture {
+    width: 50%;
+    float: right;
+    height: 450px;
+  }
+
+/* Tru by Hilton */
+.work3 {
+    flex: 1 50%;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 40px 0 0 0;
+}
+
+.work3 h5 {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.workText3 {
+    color: #333333;
+    font-family: Poppins, sans-serif;
+    float: left;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
 
 .fidelityIcon {
     width: 80px;
     height: auto;
     position: relative;
-    margin-top: -20px;
+    margin-top: -105px;
+    float: right;
+    }
+
+.pvamuIcon {
+    width: 75px;
+    height: auto;
+    position: relative;
+    margin-top: -100px;
+    float: right;
+    }
+
+.truIcon {
+    width: 75px;
+    height: auto;
+    position: relative;
+    margin-top: -100px;
+    float: right;
     }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
-.fidelityTitle {
-    line-height: 45px;
+.work1 h1 {
+    line-height: 30px;
+    }
+.work2 h1 {
+    line-height: 30px;
+    }
+.work3 h1 {
+    line-height: 30px;
+    }
+.sectionTitle {
+    font-size: 80px;
+    }
+.fidelityIcon {
+    margin-top: -120px;
+    margin-right: -23px;
+}
+.pvamuIcon {
+    margin-top: -120px;
+    margin-right: -20px;
+}
+.truIcon {
+    margin-top: -120px;
+    margin-right: -20px;
 }
 }
