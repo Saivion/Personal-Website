@@ -174,6 +174,9 @@
 .sectionTitle {
     font-size: 80px;
     }
+.blog-title {
+    margin-top: auto;
+}
 .fidelityIcon {
     margin-top: -120px;
     margin-right: -23px;
