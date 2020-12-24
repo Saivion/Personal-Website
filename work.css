@@ -30,7 +30,7 @@
 } */
 
 .blog-text {
-    margin-top: 80px;
+    margin-top: 280px;
     text-align: center;
     font-weight: 400;
 }
@@ -177,12 +177,9 @@
 .blog-title {
     margin-top: auto;
 }
-.fidelityIcon {
-    margin-top: -120px;
-    margin-right: -23px;
-}
-.pvamuIcon {
-    margin-top: -120px;
-    margin-right: -20px;
+.blog-text {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 400;
 }
 }
