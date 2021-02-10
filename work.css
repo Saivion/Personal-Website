@@ -65,13 +65,6 @@
   font-family: "Inter", sans-serif;
 }
 
-.scholar-text {
-  margin-top: 210px;
-  text-align: center;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-}
-
 /* Fidelity Experience */
 .work1 {
   flex: 1 50%;
@@ -221,12 +214,6 @@
     margin-top: auto;
   }
   .blog-text {
-    margin-top: 80px;
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.5;
-  }
-  .scholar-text {
     margin-top: 80px;
     text-align: center;
     font-weight: 400;
