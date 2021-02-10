@@ -1,26 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
 body {
-    background-color: white;
-    font-family: 'Lato', sans-serif;
-    white-space: normal;
-    color: #333;
-    line-height: 20px;
-    font-size: 14px;
-    /* max-width: 60%; */
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  white-space: normal;
+  color: #333;
+  line-height: 20px;
+  font-size: 14px;
+  /* max-width: 60%; */
 }
 
 .heading {
-  font-family: 'Lato', sans-serif;
-  font-size: 70px;
+  font-family: "Inter", sans-serif;
+  font-size: 55px;
   line-height: 60.77px;
   font-weight: 500;
-  letter-spacing: -5px;
+  letter-spacing: -4.5px;
   text-align: left;
   color: #303030;
+}
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  5% {
+    transform: rotate(-5deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(12deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(12deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(12deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(9deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 a {
@@ -48,7 +95,6 @@ a {
   font-weight: 600;
   font-family: Poppins, sans-serif;
 } */
-
 
 .hr {
   opacity: 100%;
@@ -78,19 +124,18 @@ a {
   border-bottom: none;
 } */
 
-
 .titleSocials {
   font-size: 13px;
   margin-bottom: -25px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgb(93, 116, 124);
   font-weight: 800;
   opacity: 100;
 }
 
 .socials a:hover {
-  opacity: .3;
-  transition: .5s ease;
+  opacity: 0.3;
+  transition: 0.5s ease;
 }
 
 .socials {
@@ -113,7 +158,7 @@ a {
   font-size: 24px;
   text-align: left;
   font-weight: 500;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-top: 20px;
   line-height: 40px;
   color: #333333;
@@ -131,12 +176,11 @@ header {
 
 .container {
   max-width: 890px;
-  margin: 60px auto auto auto; 
+  margin: 60px auto auto auto;
   position: relative;
   padding-left: 30px;
   padding-right: 30px;
 }
-
 
 /* .title-line {
     /* border-width: 2px; 
@@ -188,7 +232,7 @@ header {
 
 .experiences {
   text-align: left;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   margin-left: 100px;
   padding-top: 100px;
@@ -250,32 +294,20 @@ header {
   padding-top: 0px;
   padding-left: 5px;
   float: left;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 23px;
 }
 
 .portfolio {
-  font-size: 21px;
-  color: #3fcfa2;
-  margin-top: -50px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: 40px;
-  width: 100%;
   padding-top: 50px;
-}
-
-.portfolioTitle {
-  margin-top: 20px;
-  color: #54dfb3;
-  font-size: 23px;
-  font-weight: 600;
-  padding-left: 10px;
 }
 
 .aboutMe {
   text-align: left;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   margin-left: 100px;
   padding-top: 100px;
@@ -307,7 +339,7 @@ header {
 } */
 
 .presentdiv3 {
-  position: static; 
+  position: static;
 }
 
 /* footer {
@@ -351,7 +383,7 @@ header {
   padding-top: 0px;
   padding-left: 10px;
   float: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -378,7 +410,7 @@ header {
   float: right;
   border-style: solid;
   border-width: 3px;
-  border-color: rgba(8, 45, 255, .15);
+  border-color: rgba(8, 45, 255, 0.15);
   border-radius: 20px;
 }
 
@@ -390,7 +422,6 @@ line-height: 30.4px;
 position: static;
 z-index: 10;
 } */
-
 
 .image1 {
   /* left: -100px;  */
@@ -406,7 +437,6 @@ z-index: 10;
 }
 
 .image1:hover {
-
 }
 
 .image2 {
@@ -414,17 +444,17 @@ z-index: 10;
   height: auto;
   border-radius: 20px;
 
-  position: relative; 
+  position: relative;
   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
-  transition: .8s ease;
+  transition: 0.8s ease;
   backface-visibility: hidden;
 }
 .textImage {
   float: left;
-  color: #BE6FFB;
+  color: #be6ffb;
 }
 
 /* .image1:hover {
@@ -439,7 +469,6 @@ z-index: 10;
   padding-left: 10px;
 }
 
-
 /******************************************/
 .links {
   font-size: 19px;
@@ -452,12 +481,17 @@ z-index: 10;
 
 .blogOp:hover {
   opacity: 50%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .portfolioOp:hover {
   opacity: 50%;
-  transition: .5s ease;
+  transition: 0.5s ease;
+}
+
+.studentOp:hover {
+  opacity: 50%;
+  transition: 0.5s ease;
 }
 
 section {
@@ -470,16 +504,16 @@ section {
   .container {
     padding: 10px;
   }
-  
+
   .socialText1 {
     display: none;
   }
- 
+
   .socialText2 {
     display: none;
   }
-  
-  .image1{
+
+  .image1 {
     margin-top: -50px;
   }
   .image2 {
@@ -490,7 +524,7 @@ section {
     font-size: 69px;
     margin-left: 20px;
   } */
- /* .links {
+  /* .links {
    padding-top: 50px;
  }
   .aboutMe {
@@ -529,7 +563,6 @@ section {
     object-fit: fill;
   } */
 
-
   .image {
     max-width: 150%;
     margin-top: 25px;
@@ -539,7 +572,7 @@ section {
   }
   .text-block-4 {
     margin-top: -5px;
-    margin-left: 10px; 
+    margin-left: 10px;
     padding-right: 10px;
     float: left;
   }
@@ -552,83 +585,77 @@ section {
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px) {
-.container {
-}
-
-.heading {
-  font-size: 60px;
-}
-.socialTitle1 {
-  /* font-size: 23px;
+  .heading {
+    font-size: 55px;
+  }
+  .socialTitle1 {
+    /* font-size: 23px;
   padding-bottom: 20px; */
-  display: none;
-}
-.socialText1 {
-  display: none;
-}
-
-.socialTitle2 {
-  /* font-size: 23px;
-  padding-bottom: 20px; */
-  display: none;
-}
-.socialText2 {
-  display: none;
-}
-
-.hr {
-  opacity: 100%;
-  max-width: 20%;
-  margin: 135px auto 90px auto;
-  position: relative;
-}
-
-.image1{
-  margin-top: -50px;
-}
-.image2 {
-  margin-top: -50px;
-}
-
-.links {
-  float: left;
-  margin-left: -35px;
-}
-.heading {
-  margin-bottom: 100px;
-}
-.p1 {
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.aboutMe {
-  text-align: left;
-  margin-left: 25px;
-}
-.experiences {
-  text-align: left;
-  margin-left: 25px;
-}
-.p2 {
-  padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.heading {
-  margin-right: 5px;
-}
-.socials {
-  position: relative;
-  padding-left: 20px;
-  width: 30%;
+    display: none;
+  }
+  .socialText1 {
+    display: none;
   }
 
+  .socialTitle2 {
+    /* font-size: 23px;
+  padding-bottom: 20px; */
+    display: none;
+  }
+  .socialText2 {
+    display: none;
+  }
+
+  .hr {
+    opacity: 100%;
+    max-width: 20%;
+    margin: 135px auto 90px auto;
+    position: relative;
+  }
+
+  .image1 {
+    margin-top: -50px;
+  }
+  .image2 {
+    margin-top: -50px;
+  }
+
+  .links {
+    float: left;
+    margin-left: -35px;
+  }
+  .heading {
+    margin-bottom: 100px;
+  }
+  .p1 {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .aboutMe {
+    text-align: left;
+    margin-left: 25px;
+  }
+  .experiences {
+    text-align: left;
+    margin-left: 25px;
+  }
+  .p2 {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .heading {
+    margin-right: 5px;
+  }
+  .socials {
+    position: relative;
+    padding-left: 20px;
+    width: 30%;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
-
   /* footer {
     text-align: center;
     color: #333;
@@ -643,7 +670,7 @@ section {
     position: relative;
     margin-right: 200px;
   } */
-} 
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   /* footer {
@@ -652,5 +679,4 @@ section {
     opacity: 40%;
     margin-top: 520px;
   } */
-
 }
