@@ -40,7 +40,6 @@
   text-align: left;
   z-index: 10;
   position: relative;
-  line-height: 0.5em;
   pointer-events: none;
   margin-top: 180px;
   flex: 1 100%;
@@ -209,7 +208,7 @@
   .sectionScholar {
     font-size: 55px;
     font-weight: 500;
-    margin-top: -40px;
+    margin-top: 30px;
   }
   .blog-title {
     margin-top: auto;

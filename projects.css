@@ -34,7 +34,7 @@
   top: 0;
   right: 20px;
   padding: 20px 23px;
-  background-color: #231e56;
+  background-color: #ff005c;
   color: #fff;
   font-size: 16px;
   opacity: 100% !important;
@@ -56,7 +56,7 @@
   top: 0;
   right: 20px;
   padding: 20px 23px;
-  background-color: #061733;
+  background-color: #ffa5b0;
   color: #fff;
   font-size: 16px;
   opacity: 100% !important;
@@ -96,9 +96,10 @@
 }
 
 .magnifyIcon {
-  height: 44px;
-  width: 44px;
-  margin: 0 auto 15px;
+  height: 50%;
+  width: 200px;
+  text-align: center;
+  margin: 60px auto auto auto;
 }
 
 /* .globalIcon {
@@ -147,6 +148,7 @@
     width: 100%;  */
   flex: 1 50%;
   padding: 60px 50px 80px 50px;
+  margin-bottom: 80px;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
@@ -284,14 +286,11 @@ letter-spacing: -0.3px;
     position: relative;
     margin-bottom: 200px;
     }    */
-
-  .tetherIcon {
-    width: 50px;
-    height: auto;
-  }
   .magnifyIcon {
-    width: 50px;
-    height: auto;
+    height: 50%;
+    width: 100px;
+    text-align: center;
+    margin: 80px auto auto auto;
   }
 }
 
