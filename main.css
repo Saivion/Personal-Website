@@ -148,7 +148,7 @@ a {
   font-weight: 400;
   padding: 0 15px 15px 20px;
   max-width: 150px;
-  width: 300px;
+  width: 150px;
   opacity: 100;
   line-height: 30px;
   position: relative;
@@ -422,22 +422,6 @@ line-height: 30.4px;
 position: static;
 z-index: 10;
 } */
-
-.image1 {
-  /* left: -100px;  */
-  /* opacity: 1;
-  display: block;
-  transform: .3s ease;
-  border-radius: 20px; */
-
-  /* max-width: 20%;
-  border-color: black;
-  border-width: 10px;
-  border-style: solid; */
-}
-
-.image1:hover {
-}
 
 .image2 {
   width: 20%;

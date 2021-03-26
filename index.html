@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="projects.css">
         <link rel="stylesheet" href="work.css">
         <link rel="stylesheet" href="collapsible.css">
+        <link rel="stylesheet" href="filters.css">
 
 
 
@@ -47,6 +48,7 @@
 
 <!-- Portfolio -->
 <div class ="container">
+    <div class ="container-socials">
     <section id = "portfolio" class = "portfolio" style="display: block;">
             <div class = "socials">
             <p class = "titleSocials">LET'S CONNECT </p>
@@ -75,12 +77,21 @@
     <p class = "titleBody">Hi! I aspire bringing new solutions to the company that'll have an everlasting impact towards the community. </p>
 
       <div class = "sectionProjects">Projects.</div>
+      <div id="myButtons">
+        <button class="btn swift" onclick="filterSelection('swift')">Swift</button>
+        <button class="btn js" onclick="filterSelection('javascript')">JavaScript</button>
+        <button class="btn active" onclick="filterSelection('all')">Show All</button>
+      </div>
+
+        <!-- <button class="btn" onclick="filterSelection('fruits')"> Fruits<u/button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button> -->
+
+
+        <div class="filterDiv javascript">
         <!-- <p class = "socialText1">A mockup social media application tailoring to HBCU students to network & build meaningful relationships amongst each other while raising the awareness of enhancing opportunities given to minorities.</p> -->
         <a href="https://linkd.netlify.app/" class="project1" style="background-color: #fff" target="_blank">
-            <h1 id = "projectTitle1">
                 <img src = "images/linkd-logo.svg" class = "linkd-logo">
                 <!-- <p class="socialText1" style="color: black">Upcoming iOS Application</p> -->
-            </h1>
             <span class="openProject1">
                 <span class="openProject-dropdown">Open Project</span>
             </span>
@@ -100,11 +111,12 @@
                 <span class="openProject-dropdown">Coming Soon</span>
             </span>          
         </a>
-        </div>
-        </div>    
     </section>
+</div>    
 </div>
-
+</div>
+</div>
+<!-- 
              <section id = "student" style = "display: none;" class = "student">
                   <div class ="container">
                     <div class = "sectionScholar">Scholar.</div>
@@ -112,14 +124,14 @@
                 </div>
             </div>
         </section>  
-            
+             -->
 
-            <section id = "blog" style = "display: none;" class = "blog">
-                    <div class ="container">
-                        <h1 class = "blog-text">Stay tuned for upcoming updates coming out on <a href = "https://medium.com/@saivion">Medium!</a></h1>
-                    </div>
-                </section>
-            
+        <section id = "blog" style = "display: none;" class = "blog">
+                <div class ="container">
+                    <h1 class = "blog-text">Stay tuned for upcoming updates coming out on <a href = "https://medium.com/@saivion">Medium!</a></h1>
+                </div>
+        </section>
+        
  <!-- 
   <section id = "experience" style = "display: block;" class = "experience">
     <div class ="container">
@@ -135,7 +147,7 @@
 </section> --> 
 
              <!-- <footer class = "footer">More Updates to Come!</footer> -->
-<script type="text/javascript" src="main.js">
-</script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="filter.js"></script>
 </body>
 </html>

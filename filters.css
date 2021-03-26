@@ -1,0 +1,86 @@
+.filterDiv {
+  display: none;
+  margin-top: 40px;
+}
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: 0.5px solid white;
+  background-color: #f1f1f1;
+  outline: none;
+  padding: 1.1vmin;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+  text-align: center;
+  width: 13%;
+  position: relative;
+  margin: -45px 20px 40px auto;
+  font-size: 13px;
+  display: flex;
+}
+
+/* Button Hover */
+.btn {
+  background-color: white;
+  border-color: #b2b0ff;
+  color: #0400ff93;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #0400ff93;
+}
+
+.btn.active {
+  color: white;
+  background-color: #0400ff93;
+}
+
+.swift {
+  background-color: white;
+  border-color: #f05138;
+  color: #f05138;
+}
+
+.swift:hover {
+  color: white;
+  background-color: #f05138;
+}
+
+.swift.active {
+  color: white;
+  background-color: #f05138;
+}
+
+.js {
+  background-color: white;
+  color: #ffc917;
+  border-color: #ffc917;
+}
+
+.js:hover {
+  color: white;
+  background-color: #ffc917;
+}
+
+.js.active {
+  color: white;
+  background-color: #ffc917;
+}
+
+@media screen and (min-width: 479px) {
+  .btn {
+    float: right;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 325px) and (max-width: 767px) {
+  .btn {
+    display: none;
+  }
+}

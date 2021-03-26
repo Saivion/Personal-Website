@@ -14,17 +14,18 @@
   letter-spacing: -4px;
   text-align: left;
   z-index: 10;
-  position: relative;
+  position: static;
   line-height: 0.5em;
   pointer-events: none;
   margin-top: 180px;
   flex: 1 100%;
-  padding-bottom: 10px;
+  padding-bottom: 17px;
+  width: 50%;
   max-width: 208px;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0) 60%,
-    #0400ff6c 60%
+    rgba(255, 255, 255, 0) 55%,
+    #ff025f9d 55%
   );
   /* background: -webkit-linear-gradient(#ff0310, #6c61ff);
     -webkit-background-clip: text;
